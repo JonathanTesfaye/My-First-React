@@ -1,29 +1,59 @@
 .Body {
     position: relative;
-  background-color: dimgray; 
+  background-color: rgb(153, 224, 144); 
 }
 .heading1 {
-    border: 25px;
-    border-style:outset ;
     border-color: skyblue;
-    background-color: rgb(31, 199, 143); 
     align-items: center;
-    height: 50px;
-    width: 270px;
     margin: auto;
     font-family: cursive;
-   
+    height: 60px;
+    width: 300px;
 }
 
 .heading2 {
     background-color: rgb(163, 121, 5); 
     border: 20px seagreen; 
     font-family: fantasy;
+    background-color: darkcyan;
+    height: 55px;
+    width: 570px;
 }
 .heading3 {
     background-color: rgb(122, 184, 7);
-    font-family: fantasy;
+    font-family: cursive, Georgia, Times, 'Times New Roman', serif;
+    background-color: coral;
+    height: 50px;
+    width: 200px;
 }
 .paragraph1 {
     font-family: sans-serif;
+   
 }
+
+.c1 {
+    padding: 30px;
+    border: 20px black;
+    border-color: crimson;
+    border-style: double;
+}
+.c2 {
+    padding: 30px;
+    border: 20px;
+    border-color: rgb(88, 67, 202);
+    border-style: ridge;
+
+}
+ .c3 {
+    padding: 30px;
+    border: 20px;
+    border-color: rgb(182, 109, 0);
+    border-style: double;
+ }
+ img {
+     border-style:dashed ;
+ }
+ .header-section{
+     border: 2px solid red;
+     background-color: aqua;
+ }
