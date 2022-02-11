@@ -1,0 +1,29 @@
+.Body {
+    position: relative;
+  background-color: dimgray; 
+}
+.heading1 {
+    border: 25px;
+    border-style:outset ;
+    border-color: skyblue;
+    background-color: rgb(31, 199, 143); 
+    align-items: center;
+    height: 50px;
+    width: 270px;
+    margin: auto;
+    font-family: cursive;
+   
+}
+
+.heading2 {
+    background-color: rgb(163, 121, 5); 
+    border: 20px seagreen; 
+    font-family: fantasy;
+}
+.heading3 {
+    background-color: rgb(122, 184, 7);
+    font-family: fantasy;
+}
+.paragraph1 {
+    font-family: sans-serif;
+}
