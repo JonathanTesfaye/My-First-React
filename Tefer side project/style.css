@@ -1,0 +1,129 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+	height: fit-content;
+	/* border: 2px solid red; */
+	background-color: black;
+	color: white;
+}
+
+.menu {
+	/* border: 2px solid red; */
+	display: flex;
+	flex-direction: row;
+	padding: 20px 20px;
+}
+.List {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+	cursor: pointer;
+}
+.username {
+	margin-left: auto;
+	cursor: pointer;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-radius: 5px;
+}
+.username:hover {
+	transform: scale(1.2);
+	color: red;
+	background-color: yellow;
+	font-weight: 500;
+}
+.Main {
+	display: grid;
+	height: 90vh;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	padding: 20px;
+	padding-top: 40px;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.pic {
+	height: 600px;
+}
+.Pic-container {
+	margin-left: auto;
+}
+.Title {
+	font-size: 50px;
+	text-align: center;
+}
+#Marketing {
+	color: yellow;
+}
+.button-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.button {
+	border: none;
+	background-color: yellow;
+	border-radius: 5px;
+	font-size: 15px;
+	padding: 10px 15px;
+	cursor: pointer;
+	font-weight: 500;
+}
+.button:hover {
+	color: red;
+}
+
+.line {
+	border: 1px solid yellow;
+}
+.Services {
+	display: grid;
+	/* border: 2px solid red; */
+	background-color: black;
+	color: black;
+	gap: 5px;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.Box {
+	background-color: yellow;
+	/* border: 2px solid rebeccapurple; */
+	padding: 15px;
+	margin: 10px;
+	min-height: 250px;
+	max-width: 350px;
+}
+.service-title {
+	padding-top: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.List > div:hover {
+	transform: scale(1.5);
+	color: yellow;
+}
+
+/* @media (max-width: 800px) {
+	.Services {
+		flex-direction: column;
+	}
+}
+@media (max-width: 800px) {
+	.Main {
+		flex-direction: column;
+	}
+}
+@media (max-width: 400px) {
+	.menu {
+		flex-direction: column;
+	}
+}
+@media (max-width: 200px) {
+	.List {
+		flex-direction: column;
+	}
+} */

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link href="./Style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="menu">
+				<div class="list">
+					<div>Home</div>
+					<div>About</div>
+					<div>Galary</div>
+					<div>Books</div>
+				</div>
+				<div class="username">
+					<h2>Tefer User</h2>
+				</div>
+			</div>
+
+			<!-- Main body part -->
+
+			<div class="Main">
+				<div class="Main-Sub">
+					<div class="Main-content">
+						<p class="Main-Paragraph">
+							<span id="Marketing"> Market</span> agency for programmers
+						</p>
+
+						<div class="button-container">
+							<button onclick="changeText(Marketing)" id="button">
+								Explore
+							</button>
+						</div>
+						<div class="website-container">
+							<input type="Text" id="website" onchange="upperCase()" />
+						</div>
+					</div>
+					<img class="MainPic" src="./hero-image.svg" alt="MainPic" />
+				</div>
+			</div>
+
+			<!-- Service -->
+
+			<div class="Service-container">
+				<div class="Service">
+					<div class="line"></div>
+					<div class="Service-title">Service</div>
+					<div class="Box-container">
+						<div class="Box Box1">
+							<div class="ServiceContent paragraph1">
+								<h2>Title</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Nullam vestibulum orci a sapien imperdiet maximus. Suspendisse
+									vel ex eget mauris efficitur finibus eu a enim. Aenean tellus
+									neque, consectetur sit amet lacus a, hendrerit ornare urna.
+									Fusce venenatis lorem vitae augue suscipit, eu tempor massa
+									vulputate. Praesent iaculis velit libero, vel faucibus sem
+									pulvinar vel. Curabitur viverra nisl dui , a venenatis felis
+									pellentesque id. Donec non lacus diam.
+								</p>
+							</div>
+						</div>
+						<div class="Box Box2">
+							<div class="ServiceContent paragraph2">
+								<h2>Title</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Nullam vestibulum orci a sapien imperdiet maximus. Suspendisse
+									vel ex eget mauris efficitur finibus eu a enim. Aenean tellus
+									neque, consectetur sit amet lacus a, hendrerit ornare urna.
+									Fusce venenatis lorem vitae augue suscipit, eu tempor massa
+									vulputate. Praesent iaculis velit libero, vel faucibus sem
+									pulvinar vel. Curabitur viverra nisl dui , a venenatis felis
+									pellentesque id. Donec non lacus diam.
+								</p>
+							</div>
+						</div>
+						<div class="Box Box3">
+							<div class="ServiceContent paragraph3">
+								<h2>Title</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Nullam vestibulum orci a sapien imperdiet maximus. Suspendisse
+									vel ex eget mauris efficitur finibus eu a enim. Aenean tellus
+									neque, consectetur sit amet lacus a, hendrerit ornare urna.
+									Fusce venenatis lorem vitae augue suscipit, eu tempor massa
+									vulputate. Praesent iaculis velit libero, vel faucibus sem
+									pulvinar vel. Curabitur viverra nisl dui , a venenatis felis
+									pellentesque id. Donec non lacus diam.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script href="./index.js">
+				console.log("test");
+				function changeText(Marketing) {
+					Marketing.innerHTML = "Explore ";
+					document.getElementById("Marketing").style.color = "Red";
+					document.getElementById("Marketing").style.fontSize = "150px";
+				}
+				function upperCase() {
+					const x = document.getElementById("website");
+					x.value = x.value.toUpperCase();
+				}
+
+				function add(a, b) {
+					result = a + b;
+					console.log(result);
+				}
+
+				add(5, 2);
+			</script>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+	display: grid;
+	height: auto fit-content;
+	/* border: 2px solid red; */
+	background-color: black;
+}
+.menu {
+	padding: 20px 30px;
+	/* border: 2px solid red; */
+	display: flex;
+	grid-template-columns: auto;
+	font-size: 15px;
+	background-color: black;
+	color: white;
+}
+.list > div:hover {
+	transform: scale(1.5);
+	color: yellow;
+}
+
+.list {
+	display: flex;
+	margin: 0px 20px;
+	gap: 40px;
+	cursor: pointer;
+}
+.username {
+	margin-left: auto;
+	align-self: center;
+	font-size: 10px;
+}
+.Main {
+	display: grid;
+
+	margin: 10px 10px;
+	height: 100vh;
+	/* border: 2px solid red; */
+	background-color: black;
+	color: white;
+}
+
+.Main-Sub {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+
+	color: white;
+}
+.Main-content {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 50px;
+	width: 100%;
+	gap: 10px;
+}
+.MainPic {
+	width: 100%;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+#Marketing {
+	color: yellow;
+}
+#button {
+	border: none;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: yellow;
+}
+.button-container {
+	display: grid;
+	background-color: yellow;
+	border-radius: 10px;
+	padding: 5px;
+	cursor: pointer;
+	height: fit-content;
+	width: fit-content;
+}
+
+.Main-Paragraph {
+	font-size: 50px;
+}
+.Main-content p {
+	text-align: center;
+}
+.Service-container {
+	height: fit-content;
+	background-color: black;
+	/* border: 2px solid red; */
+	margin: 10px 10px;
+}
+.line {
+	border: 1px solid yellow;
+}
+.Service-title {
+	display: flex;
+	color: rgb(201, 172, 6);
+	font-size: 25px;
+	justify-content: center;
+	padding-bottom: 10px;
+	padding-top: 50px;
+	font-family: cursive;
+}
+.ServiceContent {
+	margin: 20px;
+}
+.Box-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	gap: 20px;
+}
+.Box {
+	background-color: yellow;
+	min-height: 300px;
+	width: 100%;
+}
